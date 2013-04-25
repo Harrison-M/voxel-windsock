@@ -7,7 +7,7 @@ var game = createGame({
   texturePath: texturePath,
   generate: function(x, y, z) {
     if(y === 0) return 1
-    return windsock.generate(10,86)(x,y,z)
+    return windsock.generate(10.2,180)(x,y,z)
   }
 })
 var container = document.body
@@ -17,7 +17,7 @@ var avatar = player(game)()
 avatar.possess()
 avatar.yaw.position.set(0,5,5)
 
-var newsock = windsock.blueprint([20,0,20], 15, 43)
+var newsock = windsock.blueprint([20,0,20], 7.02, 128)
 newsock.forEach(function(pos) {
     game.createBlock(pos,3)
 })

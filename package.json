@@ -1,7 +1,7 @@
 {
     "name": "voxel-windsock",
     "description": "Sorts out that big pixel mess in your image and creates order",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "./index.js",
     "dependencies": {
     },
